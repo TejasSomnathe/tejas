@@ -1,0 +1,56 @@
+.header-grid{
+    background-color: rgb(48, 2, 122);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+
+}
+
+.myImg{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+button {
+    
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f2d5e0; /* Light pink */
+    color: black;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Fully rounded */
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Creating the slanted cut */
+  button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 50px;
+    height: 100%;
+    background-color: #a88ac5; /* Background color of the container */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+  
+  /* Button Hover Animation */
+  button:hover {
+    background-color: #e0b8cc; /* Darker pink */
+    transform: translateY(-3px); /* Lift effect */
+  }
+  
+  /* Adding a subtle scale animation on click */
+  button:active {
+    transform: scale(0.95);
+  }
+  
