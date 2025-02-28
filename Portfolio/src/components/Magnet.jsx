@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 const Magnet = ({
   children,
-  padding = 100,
+  padding = 1,
   disabled = false,
   magnetStrength = 2,
   activeTransition = "transform 0.3s ease-out",

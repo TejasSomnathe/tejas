@@ -32,6 +32,9 @@ return (
           hoverSmoothness={0.05}
           clumpFactor={1}
           speed={0.3}
+          className='hooo'
+        
+        
 />
  
       <Magnet padding={500} disabled={false} magnetStrength={45}>
@@ -80,10 +83,10 @@ return (
               fontWeight:900,
             }}>
               <TrueFocus 
-sentence="Frontend Developer"
+sentence="Web Developer"
 manualMode={false}
 blurAmount={5}
-borderColor="aqua"
+borderColor="lightpink"
 animationDuration={2}
 pauseBetweenAnimations={1}
 />
@@ -111,6 +114,8 @@ pauseBetweenAnimations={1}
           hoverSmoothness={0.05}
           clumpFactor={1}
           speed={0.3}
+            className='hooo'
+
 />
 
       

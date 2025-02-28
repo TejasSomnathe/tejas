@@ -108,7 +108,7 @@ void main() {
 }
 `;
 
-const MetaBalls = ({
+const MetaBalls = ({  
   color = "#ffffff",
   speed = 0.3,
   enableMouseInteraction = true,

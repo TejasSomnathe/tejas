@@ -17,7 +17,7 @@ function Header() {
         
         <AnimatedContent
   distance={40}
-  direction="vertical"
+  direction="horizontal"
   reverse={true}
   config={{ tension: 80, friction: 20 }}
   initialOpacity={0.2}

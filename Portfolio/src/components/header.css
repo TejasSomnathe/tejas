@@ -20,19 +20,19 @@ button {
     padding: 15px 50px;
     font-size: 24px;
     font-weight: bold;
-    background-color: #f2d5e0; /* Light pink */
+    background-color: #f2d5e0; 
     color: black;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    border-radius: 50px; /* Fully rounded */
+    border-radius: 50px; 
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   /* Creating the slanted cut */
-  button::before {
+  /* button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -40,8 +40,8 @@ button {
     width: 50px;
     height: 100%;
     background-color: #a88ac5; /* Background color of the container */
-    clip-path: polygon(0 0, 100% 0, 0 100%);
-  }
+    /* clip-path: polygon(0 0, 100% 0, 0 100%); */
+  /* } */ */
   
   /* Button Hover Animation */
   button:hover {

@@ -1,14 +1,12 @@
 import React from 'react'
+import './footer.css'
 
-import RollingGallery from './RollingGallery'
-  
 function Footer() {
   return (
-    <div>
-        
-      <RollingGallery autoplay={true} pauseOnHover={true} />    
-        
-    </div>
+    <>
+    
+
+    </>
   )
 }
 
