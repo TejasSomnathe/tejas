@@ -1,0 +1,63 @@
+
+
+
+.main-grid{
+   background-color: rgb(78, 0, 167);
+    height: fit-content;
+    min-width: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hooo{
+    flex: 1;
+}
+
+.name-grid{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 80vh;
+    /* width: 50vw; */
+    border-radius: 30px;
+    background-color: #bc8dfa36;
+    flex: 2;
+    
+    -webkit-box-shadow: 0 0 5px 2px #07060683;
+    -moz-box-shadow: 0 0 5px 2px #0c0b0b71;
+    box-shadow: 0 0 5px 2px #07070783
+}
+
+.TejasText{
+    font-size: 8rem;
+    font-family: sans-serif;
+    
+}
+
+.hiText{
+    font-size: 80px;
+    margin-right: 400px;
+    font-family: squada system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+.para{
+    margin-top:50px ;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievments{
+    font-size: 100px;
+    color: rgb(182, 126, 235);
+}
+
+.Main2-grid{
+    background-color: black;
+    min-width: fit-content;
+    overflow: hidden;
+}
