@@ -19,7 +19,7 @@ function Card1() {
                   className="cardDiv"
                   style={
                     {
-                      // margin:"1rem 2rem 2rem 0"
+                      
                     }
                   }
                 ></div>
@@ -60,7 +60,7 @@ function Card1() {
                   className="cardDiv"
                   style={
                     {
-                      // margin:"1rem 2rem 2rem 0"
+                     
                     }
                   }
                 ></div>
@@ -105,7 +105,7 @@ function Card1() {
                   className="cardDiv"
                   style={
                     {
-                      // margin:"1rem 2rem 2rem 0"
+                     
                     }
                   }
                 ></div>
@@ -128,7 +128,7 @@ function Card1() {
                   className="cardDiv"
                   style={
                     {
-                      // margin:"1rem 2rem 2rem 0"
+                    
                     }
                   }
                 ></div>
