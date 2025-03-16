@@ -1,0 +1,20 @@
+.footer-grid{
+    height: fit-content;
+    background-color: rgb(140, 60, 214);
+    /* margin: 10%; */
+    /* border-radius: 50px; */
+    display: flex;
+   
+    flex-direction: row;
+}
+
+h1{
+    color: aliceblue
+}
+
+.achievments-grid{
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 50px;
+     z-index: 100;
+}
